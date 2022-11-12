@@ -2,18 +2,29 @@ body {
     background:rgb(152, 152, 199);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
 .assignment {
-    display: flex;
+    width: 22%;
     padding: 10px;
     margin: 10px;
+    padding: 20px 10px;
     background:rgb(132, 132, 177)
 }
 
 .assignment img{
     width:200px;
     padding: 10px;
+    display:block;
+    margin:auto;
 }
 h1{
     color:rgb(24, 55, 80);
     text-align:center;
+}
+h2 {
+    text-align: center;
 }
